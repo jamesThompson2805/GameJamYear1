@@ -4,9 +4,9 @@ Things to code:
 - Menu
 - Character editor
 - Enemy class
-== Shooting
-== Path finding
+-- Shooting
+-- Path finding
 - Player class
-== Movement
+-- Movement
 - Level generator
 - Body parts
