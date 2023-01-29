@@ -1,6 +1,8 @@
 Game designed for the first warwick game jam!!!
 
 Things to code:
+1. Level generator
+
 - Menu
 - Character editor
 - Enemy class
@@ -8,5 +10,4 @@ Things to code:
   - Path finding
 - Player class
   - Movement
-- Level generator
 - Body parts
