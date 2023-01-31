@@ -16,21 +16,21 @@ class PlayState extends FlxState
 	{
 		map = new FlxOgmo3Loader(AssetPaths.GameJam1__ogmo, AssetPaths.level1__json);
 
-		//TODO: The first tile (tile 0) does not render
+		// TODO: The first tile (tile 0) does not render
 		walls = map.loadTilemap(AssetPaths.SimpleWalls__png, "Walls");
 		walls.follow();
-		for (i in 0...27)
+		for (i in 0...21)
 		{
 			walls.setTileProperties(i, NONE);
 		}
-		walls.setTileProperties(3, ANY);
 		walls.setTileProperties(4, ANY);
 		walls.setTileProperties(5, ANY);
-		walls.setTileProperties(10, ANY);
-		walls.setTileProperties(19, ANY);
+		walls.setTileProperties(6, ANY);
+		walls.setTileProperties(9, ANY);
+		walls.setTileProperties(16, ANY);
 		add(walls);
 
-		//TODO: Change this to be from the json file
+		// TODO: Change this to be from the json file
 		player = new Player(96, 96);
 		add(player);
 
